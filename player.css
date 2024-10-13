@@ -98,9 +98,9 @@ svg.hide
 {
     width: 60px;
     height: 60px;
-    border-right: 3px solid var(--genGreenTypeMid);
-    border-bottom: 3px solid var(--genGreenTypeMid);
-    border-left: 3px solid var(--genGreenTypeMid);
+    border-right: 3px solid var(--genWhiteTypeBright);
+    border-bottom: 3px solid var(--genWhiteTypeBright);
+    border-left: 3px solid var(--genWhiteTypeBright);
     border-top: 1px solid transparent;
     border-radius: 50%;
     animation: ani 2000ms linear infinite;
