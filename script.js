@@ -46,7 +46,7 @@ const struct =
                                     <h1 class="section_title_textLarge">
                                         <span class="largeText1">Season N/A</span> - <span class="largeText2">Episode N/A</span>
                                     </h1>
-                                    <a href="https://acbennny.netlify.app" title="" class="section_title_textSmall">acbennny</a>
+                                    <a href="https://acbennny.netlify.app" title="" class="section_title_textSmall">by acbennny</a>
                                 </div>
                             </div>
                             <div class="left_section_bdr synopsis_bdr">
