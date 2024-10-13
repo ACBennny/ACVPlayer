@@ -57,22 +57,22 @@ const struct =
                                     </p>
                                     <p class="synopsisTitle"><strong>Genres</strong></p>
                                     <div class="genreTagBox">
-                                        <a href="#" target="_blank" class="genreTagCardLink">
+                                        <a href="#" target="_self" class="genreTagCardLink">
                                             <div class="genreTagCard">
                                                 <p class="genreTagCardText">Add</p>
                                             </div>
                                         </a>
-                                        <a href="#" target="_blank" class="genreTagCardLink">
+                                        <a href="#" target="_self" class="genreTagCardLink">
                                             <div class="genreTagCard">
                                                 <p class="genreTagCardText">Some</p>
                                             </div>
                                         </a>
-                                        <a href="#" target="_blank" class="genreTagCardLink">
+                                        <a href="#" target="_self" class="genreTagCardLink">
                                             <div class="genreTagCard">
                                                 <p class="genreTagCardText">Nice</p>
                                             </div>
                                         </a>
-                                        <a href="#" target="_blank" class="genreTagCardLink">
+                                        <a href="#" target="_self" class="genreTagCardLink">
                                             <div class="genreTagCard">
                                                 <p class="genreTagCardText">Genres</p>
                                             </div>
