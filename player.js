@@ -33,9 +33,9 @@ function initPlyr()
                     <div class="episode_title_box">
                         <div class="companyTitle">
                             <h1 class="head">AC</h1>
-                            <h1 class="tail">Bennny</h1>
+                            <h1 class="tail">VidPlayer</h1>
                         </div>
-                        <div class="episodeTitle"></div>
+                        <div class="episodeTitle">N/A</div>
                     </div>
                 </div>
                 <div class="cover-vid">
