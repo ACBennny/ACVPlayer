@@ -46,7 +46,7 @@ const struct =
                                     <h1 class="section_title_textLarge">
                                         <span class="largeText1">Season N/A</span> - <span class="largeText2">Episode N/A</span>
                                     </h1>
-                                    <a href="https://acbennny.netlify.app" title="" class="section_title_textSmall">by acbennny</a>
+                                    <a href="https://acbennny.netlify.app" target="_blank" title="" class="section_title_textSmall">by acbennny</a>
                                 </div>
                             </div>
                             <div class="left_section_bdr synopsis_bdr">
@@ -363,51 +363,23 @@ function initApp()
 
 
 
-
-// NO RIGHTCLICKS
-
-    docBody.addEventListener("contextmenu" , (e) => 
+// VIEW CODES RIGHT
+    
+    function viewCodeProperly(e)
     {
-        viewCodeProperly(e);
-    });
+        e.preventDefault();
+        alert("You cannot view code this way.\nThis alert is not to 'prevent' you but 'advice' you.\n\nYou can view codes for all my projects through \nmy site ==> https://acbennny.netlify.app \nThanks");
+    }
 
-    docBody.addEventListener("keydown" , e => 
+    function devToolKey(e)
     {
         let keyStr = e.key.toLowerCase();
-
-        if((e.ctrlKey && e.shiftKey))
-        {
-            viewCodeProperly(e);
-        }
-        if((e.ctrlKey && e.shiftKey && keyStr === 'a'))
-        {
-            viewCodeProperly(e);
-        }
-        if((e.ctrlKey && e.shiftKey && keyStr === 'b'))
-        {
-            viewCodeProperly(e);
-        }
+        
         if((e.ctrlKey && e.shiftKey && keyStr === 'c'))
         {
             viewCodeProperly(e);
         }
-        if((e.ctrlKey && e.shiftKey && keyStr === 'd'))
-        {
-            viewCodeProperly(e);
-        }
-        if((e.ctrlKey && e.shiftKey && keyStr === 'e'))
-        {
-            viewCodeProperly(e);
-        }
         if((e.ctrlKey && e.shiftKey && keyStr === 'f'))
-        {
-            viewCodeProperly(e);
-        }
-        if((e.ctrlKey && e.shiftKey && keyStr === 'g'))
-        {
-            viewCodeProperly(e);
-        }
-        if((e.ctrlKey && e.shiftKey && keyStr === 'h'))
         {
             viewCodeProperly(e);
         }
@@ -416,10 +388,6 @@ function initApp()
             viewCodeProperly(e);
         }
         if((e.ctrlKey && e.shiftKey && keyStr === 'j'))
-        {
-            viewCodeProperly(e);
-        }
-        if((e.ctrlKey && e.shiftKey && keyStr === 'k'))
         {
             viewCodeProperly(e);
         }
@@ -435,15 +403,7 @@ function initApp()
         {
             viewCodeProperly(e);
         }
-        if((e.ctrlKey && e.shiftKey && keyStr === 'o'))
-        {
-            viewCodeProperly(e);
-        }
         if((e.ctrlKey && e.shiftKey && keyStr === 'p'))
-        {
-            viewCodeProperly(e);
-        }
-        if((e.ctrlKey && e.shiftKey && keyStr === 'q'))
         {
             viewCodeProperly(e);
         }
@@ -451,75 +411,7 @@ function initApp()
         {
             viewCodeProperly(e);
         }
-        if((e.ctrlKey && e.shiftKey && keyStr === 's'))
-        {
-            viewCodeProperly(e);
-        }
-        if((e.ctrlKey && e.shiftKey && keyStr === 't'))
-        {
-            viewCodeProperly(e);
-        }
-        if((e.ctrlKey && e.shiftKey && keyStr === 'u'))
-        {
-            viewCodeProperly(e);
-        }
-        if((e.ctrlKey && e.shiftKey && keyStr === 'v'))
-        {
-            viewCodeProperly(e);
-        }
-        if((e.ctrlKey && e.shiftKey && keyStr === 'w'))
-        {
-            viewCodeProperly(e);
-        }
-        if((e.ctrlKey && e.shiftKey && keyStr === 'x'))
-        {
-            viewCodeProperly(e);
-        }
-        if((e.ctrlKey && e.shiftKey && keyStr === 'y'))
-        {
-            viewCodeProperly(e);
-        }
-        if((e.ctrlKey && e.shiftKey && keyStr === 'z'))
-        {
-            viewCodeProperly(e);
-        }
-        if((e.ctrlKey && e.shiftKey && keyStr === '0'))
-        {
-            viewCodeProperly(e);
-        }
-        if((e.ctrlKey && e.shiftKey && keyStr === '1'))
-        {
-            viewCodeProperly(e);
-        }
-        if((e.ctrlKey && e.shiftKey && keyStr === '2'))
-        {
-            viewCodeProperly(e);
-        }
-        if((e.ctrlKey && e.shiftKey && keyStr === '3'))
-        {
-            viewCodeProperly(e);
-        }
-        if((e.ctrlKey && e.shiftKey && keyStr === '4'))
-        {
-            viewCodeProperly(e);
-        }
-        if((e.ctrlKey && e.shiftKey && keyStr === '5'))
-        {
-            viewCodeProperly(e);
-        }
-        if((e.ctrlKey && e.shiftKey && keyStr === '6'))
-        {
-            viewCodeProperly(e);
-        }
-        if((e.ctrlKey && e.shiftKey && keyStr === '7'))
-        {
-            viewCodeProperly(e);
-        }
-        if((e.ctrlKey && e.shiftKey && keyStr === '8'))
-        {
-            viewCodeProperly(e);
-        }
-        if((e.ctrlKey && e.shiftKey && keyStr === '9'))
+        if((e.ctrlKey && e.shiftKey && keyStr === '+'))
         {
             viewCodeProperly(e);
         }
@@ -527,13 +419,17 @@ function initApp()
         {
             viewCodeProperly(e);
         }
+    }
+
+    docBody.addEventListener("contextmenu" , (e) => 
+    {
+        viewCodeProperly(e);
     });
 
-    function viewCodeProperly(e)
+    docBody.addEventListener("keydown" , e => 
     {
-        e.preventDefault();
-        alert("You cannot view code this way.\nThis alert is not to 'prevent' you but 'advice' you.\n\nYou can view codes for all my projects through \nmy site ==> https://acbennny.netlify.app \nThanks");
-    }
+        devToolKey(e);
+    });
 
 
 
