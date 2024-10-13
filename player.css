@@ -91,17 +91,18 @@ svg.hide
     transition:all 2s ease-out;
     pointer-events: none;
     z-index: 15;
+    display: flex;
 }
 
 .video_player .loader .spinner
 {
     width: 60px;
-    height: 50px;
-    border-right: 15px solid var(--genGreenTypeLight);
-    border-bottom: 10px solid var(--genWhiteTypeLight);
-    border-left: 15px solid var(--genGreenTypeLight);
-    border-top: 11px solid transparent;
-    border-radius: 10px;
+    height: 60px;
+    border-right: 3px solid var(--genGreenTypeMid);
+    border-bottom: 3px solid var(--genGreenTypeMid);
+    border-left: 3px solid var(--genGreenTypeMid);
+    border-top: 1px solid transparent;
+    border-radius: 50%;
     animation: ani 2000ms linear infinite;
     -moz-user-select: -moz-none;
     -moz-user-select: none;
@@ -115,15 +116,15 @@ svg.hide
 {
     0%
     {
-        transform: translateY(-50%);
+        transform: translateY(-50%) rotate(0deg);
     }
     50%
     {
-        transform: translateY(0%);
+        transform: translateY(-50%) rotate(180deg);
     }
     100%
     {
-        transform: translateY(-50%);
+        transform: translateY(-50%) rotate(360deg);
     }
 }
 
