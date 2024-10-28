@@ -452,7 +452,7 @@ function initApp()
 
     docBody.addEventListener("contextmenu" , (e) => 
     {
-        viewCodeProperly(e);
+        e.preventDefault();
     });
 
     docBody.addEventListener("keydown" , e => 
