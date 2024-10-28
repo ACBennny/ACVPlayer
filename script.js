@@ -299,12 +299,12 @@ function initApp()
         {
             if((openAddToWLBtn.classList.contains("active")))
             {
-                openAddToWLBtn.title = "Remove from watchlist";
+                openAddToWLBtn.title = "Add to watchlist";
                 openAddToWLBtnText.textContent = "Add to Watchlist";
                 openAddToWLBtn.classList.remove("active");
                 return;
             }
-            openAddToWLBtn.title = "Add to watchlist";
+            openAddToWLBtn.title = "Remove from watchlist";
             openAddToWLBtnText.textContent = "In Watchlist";
             openAddToWLBtn.classList.add("active");
         });
