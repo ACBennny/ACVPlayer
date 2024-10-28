@@ -294,6 +294,9 @@ svg.hide
     opacity: 0;
     visibility: visible;
     transition: all 300ms ease-in-out;
+    -moz-user-select: -moz-none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
     user-select: none;
     pointer-events: none;
 }
@@ -817,6 +820,9 @@ svg.hide
     text-align: center;
     transform: translate(-50%, -75%);
     transition: bottom 300ms;
+    -moz-user-select: -moz-none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
     user-select: none;
     pointer-events: none;
     z-index: 6;
