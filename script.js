@@ -348,7 +348,7 @@ function initApp()
                 {
                     title: `${document.title}`,
                     url: `${window.location.href}`,
-                    msg: `Check out the video player and visit https://acbennny.netlify.app to see more of my projects`
+                    msg: `Check out the video player and visit ${myPortfolio} to see more of my projects`
                 })
                 .then(() => 
                 {
