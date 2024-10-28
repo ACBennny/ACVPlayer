@@ -570,7 +570,7 @@ function initPlyr()
                     toggleFullScreenMode();
                 }
         
-                // Go to Next episode when video ends, if auto next is on
+                // If auto play is on, replay video
                 if(autoPlayEpCheckBox.checked == true)
                 {
                     if(autoPlayEpCheckBox.checked == false) return;
