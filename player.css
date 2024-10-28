@@ -22,7 +22,6 @@ svg.hide
 }
 
 
-
 .vid_bdr
 {
     width: 100%;
@@ -88,7 +87,7 @@ svg.hide
     align-items: center;
     justify-content: center;
     background-color: #00000010;
-    transition:all 2s ease-out;
+    transition: all 2s ease-out;
     pointer-events: none;
     z-index: 15;
     display: flex;
@@ -116,15 +115,15 @@ svg.hide
 {
     0%
     {
-        transform: translateY(-50%) rotate(0deg);
+        transform: translateY(0%) rotate(0deg);
     }
     50%
     {
-        transform: translateY(-50%) rotate(180deg);
+        transform: translateY(0%) rotate(180deg);
     }
     100%
     {
-        transform: translateY(-50%) rotate(360deg);
+        transform: translateY(0%) rotate(360deg);
     }
 }
 
