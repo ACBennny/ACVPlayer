@@ -101,13 +101,13 @@ const struct =
                             <div class="left_section_bdr media_actions_bdr">
                                 <div class="left_section_box media_actions_box">
                                     <div class="media_optBdr">
-                                        <button class="media_optBox like_buttons add_to_LikedShowsBox" title="I like this epsidoe" aria-label="I like this epsidoe">
+                                        <button type="button" class="media_optBox like_buttons add_to_LikedShowsBox" title="I like this epsidoe" aria-label="I like this epsidoe">
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="media_optIcon add_to_LikedShows">
                                                 <path d="M313.4 32.9c26 5.2 42.9 30.5 37.7 56.5l-2.3 11.4c-5.3 26.7-15.1 52.1-28.8 75.2H464c26.5 0 48 21.5 48 48c0 18.5-10.5 34.6-25.9 42.6C497 275.4 504 288.9 504 304c0 23.4-16.8 42.9-38.9 47.1c4.4 7.3 6.9 15.8 6.9 24.9c0 21.3-13.9 39.4-33.1 45.6c.7 3.3 1.1 6.8 1.1 10.4c0 26.5-21.5 48-48 48H294.5c-19 0-37.5-5.6-53.3-16.1l-38.5-25.7C176 420.4 160 390.4 160 358.3V320 272 247.1c0-29.2 13.3-56.7 36-75l7.4-5.9c26.5-21.2 44.6-51 51.2-84.2l2.3-11.4c5.2-26 30.5-42.9 56.5-37.7zM32 192H96c17.7 0 32 14.3 32 32V448c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32V224c0-17.7 14.3-32 32-32z"/>
                                             </svg>
                                             <p class="media_optText">Like</p>
                                         </button>
-                                        <button class="media_optBox like_buttons add_to_DislikedShowsBox" title="I don't like this episode" aria-label="I don't like this episode">
+                                        <button type="button" class="media_optBox like_buttons add_to_DislikedShowsBox" title="I don't like this episode" aria-label="I don't like this episode">
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="media_optIcon add_to_DislikedShows">
                                                 <path d="M313.4 479.1c26-5.2 42.9-30.5 37.7-56.5l-2.3-11.4c-5.3-26.7-15.1-52.1-28.8-75.2H464c26.5 0 48-21.5 48-48c0-18.5-10.5-34.6-25.9-42.6C497 236.6 504 223.1 504 208c0-23.4-16.8-42.9-38.9-47.1c4.4-7.3 6.9-15.8 6.9-24.9c0-21.3-13.9-39.4-33.1-45.6c.7-3.3 1.1-6.8 1.1-10.4c0-26.5-21.5-48-48-48H294.5c-19 0-37.5 5.6-53.3 16.1L202.7 73.8C176 91.6 160 121.6 160 153.7V192v48 24.9c0 29.2 13.3 56.7 36 75l7.4 5.9c26.5 21.2 44.6 51 51.2 84.2l2.3 11.4c5.2 26 30.5 42.9 56.5 37.7zM32 384H96c17.7 0 32-14.3 32-32V128c0-17.7-14.3-32-32-32H32C14.3 96 0 110.3 0 128V352c0 17.7 14.3 32 32 32z"/>
                                             </svg>
@@ -115,19 +115,19 @@ const struct =
                                         </button>
                                     </div>
                                     <div class="media_optBdr">
-                                        <button class="media_optBox openAddToWLBtn" title="Add to Watchlist" aria-label="Add to Watchlist">
+                                        <button type="button" class="media_optBox openAddToWLBtn" title="Add to Watchlist" aria-label="Add to Watchlist">
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="media_optIcon add_to_WatchListIcon">
                                                 <path d="M264.5 5.2c14.9-6.9 32.1-6.9 47 0l218.6 101c8.5 3.9 13.9 12.4 13.9 21.8s-5.4 17.9-13.9 21.8l-218.6 101c-14.9 6.9-32.1 6.9-47 0L45.9 149.8C37.4 145.8 32 137.3 32 128s5.4-17.9 13.9-21.8L264.5 5.2zM476.9 209.6l53.2 24.6c8.5 3.9 13.9 12.4 13.9 21.8s-5.4 17.9-13.9 21.8l-218.6 101c-14.9 6.9-32.1 6.9-47 0L45.9 277.8C37.4 273.8 32 265.3 32 256s5.4-17.9 13.9-21.8l53.2-24.6 152 70.2c23.4 10.8 50.4 10.8 73.8 0l152-70.2zm-152 198.2l152-70.2 53.2 24.6c8.5 3.9 13.9 12.4 13.9 21.8s-5.4 17.9-13.9 21.8l-218.6 101c-14.9 6.9-32.1 6.9-47 0L45.9 405.8C37.4 401.8 32 393.3 32 384s5.4-17.9 13.9-21.8l53.2-24.6 152 70.2c23.4 10.8 50.4 10.8 73.8 0z"/>
                                             </svg>
                                             <p class="media_optText">Add to Watchlist</p>
                                         </button>
-                                        <button class="media_optBox add_to_DwldBox" title="Dowload episode" aria-label="Dowload episode">
+                                        <button type="button" class="media_optBox add_to_DwldBox" title="Dowload episode" aria-label="Dowload episode">
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="media_optIcon add_to_Downloads">
                                                 <path transform="rotate(90, 256, 256)" d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z"/>
                                             </svg>
                                             <p class="media_optText">Download</p>
                                         </button>
-                                        <button class="media_optBox shareShowBtn" title="Add to Watchlist" aria-label="Add to Watchlist">
+                                        <button type="button" class="media_optBox shareShowBtn" title="Add to Watchlist" aria-label="Add to Watchlist">
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="media_optIcon add_to_WatchListIcon">
                                                 <path xmlns="http://www.w3.org/2000/svg" d="M384 336a63.78 63.78 0 00-46.12 19.7l-148-83.27a63.85 63.85 0 000-32.86l148-83.27a63.8 63.8 0 10-15.73-27.87l-148 83.27a64 64 0 100 88.6l148 83.27A64 64 0 10384 336z"/>
                                             </svg>
@@ -190,7 +190,7 @@ const struct =
                             </div>
                             <div class="showlist_epdivider"></div>
                             <div class="showlist_MoreEpBtnBdr">
-                                <button class="showlist_MoreEpBtnBox open_MoreEpOverlay">
+                                <button type="button" class="showlist_MoreEpBtnBox open_MoreEpOverlay">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="showlist_MoreEpBtnIcon">
                                         <path d="M368 96H144a16 16 0 010-32h224a16 16 0 010 32zM400 144H112a16 16 0 010-32h288a16 16 0 010 32zM419.13 448H92.87A44.92 44.92 0 0148 403.13V204.87A44.92 44.92 0 0192.87 160h326.26A44.92 44.92 0 01464 204.87v198.26A44.92 44.92 0 01419.13 448z"/>
                                     </svg>
@@ -299,10 +299,12 @@ function initApp()
         {
             if((openAddToWLBtn.classList.contains("active")))
             {
+                openAddToWLBtn.title = "Remove from watchlist";
                 openAddToWLBtnText.textContent = "Add to Watchlist";
                 openAddToWLBtn.classList.remove("active");
                 return;
             }
+            openAddToWLBtn.title = "Add to watchlist";
             openAddToWLBtnText.textContent = "In Watchlist";
             openAddToWLBtn.classList.add("active");
         });
