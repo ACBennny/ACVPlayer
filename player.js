@@ -574,7 +574,7 @@ function initPlyr()
                 if(autoPlayEpCheckBox.checked == true)
                 {
                     if(autoPlayEpCheckBox.checked == false) return;
-                    window.location.href = nextEpLink.href;
+                    mainVideo.play();
                 }
             }
 
