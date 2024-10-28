@@ -101,12 +101,118 @@ button, p, div, a, span
     background-color: transparent;
 }
 
-
 .vid_sect_space
 {
     width: 100%;
     height: 70px;
 }
+
+
+/* ================ View Code Right ================= */
+.viewCodeRight_bdr
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000099;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    z-index: 999;
+}
+
+.viewCodeRight_bdr.active
+{
+    display: flex;
+}
+
+.viewCodeRight_bdr .viewCodeRight_box
+{
+    width: 100%;
+    max-width: 400px;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    border-radius: 15px;
+    background-color: #222222;
+}
+
+.viewCodeRight_box .viewCodeRight_title
+{
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--genGreenTypeLight);
+    margin-bottom: 20px;
+}
+
+.viewCodeRight_title::after
+{
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 20%;
+    width: 60%;
+    height: 2px;
+    border-radius: 15px;
+    background-color: var(--genWhiteTypeMid);
+}
+
+.viewCodeRight_box .viewCodeRight_text
+{
+    width: 100%;
+    font-size: 14px;
+    color: var(--genWhiteTypeLight);
+    margin-bottom: 25px;
+}
+
+.viewCodeRight_link
+{
+    position: relative;
+    font-weight: 500;
+    color: var(--genGreenTypeLight);
+}
+
+.viewCodeRight_link::after
+{
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0%;
+    width: 60%;
+    height: 1px;
+    border-radius: 15px;
+    background-color: var(--genWhiteTypeMid);
+    transition: all 300ms ease-in-out;
+}
+
+.viewCodeRight_box .viewCodeRight_btn
+{
+    padding: 10px 20px;
+    font-size: 15px;
+    color: var(--genWhiteTypeLight);
+    border-radius: 15px;
+    background-color: var(--genGreenTypeDark2);
+    transition: all 150ms ease-in-out;
+    cursor: pointer;
+}
+
+.viewCodeRight_btn:active
+{
+    border-radius: 25px;
+    transform: scale(0.90);
+}
+
+
 
 /* ============= Video Details ============= */
 
@@ -958,6 +1064,16 @@ button, p, div, a, span
     ::-webkit-scrollbar-thumb:hover
     {
         background-color: #333333;
+    }
+
+    .viewCodeRight_link:hover::after
+    {
+        width: 100%;
+    }
+    
+    .viewCodeRight_btn:hover
+    {
+        background-color: var(--genGreenTypeDark1);
     }
 
     .section_title_textSmall:hover

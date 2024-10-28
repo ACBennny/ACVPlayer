@@ -8,8 +8,26 @@
 
 
 const docBody = document.body;
+const myPortfolio = `https://acbennny.netlify.app`;
 const struct = 
 `
+        <div class="viewCodeRight_bdr">
+            <div class="viewCodeRight_box">
+                <div class="viewCodeRight_title">View Code Right!</div>
+                <p class="viewCodeRight_text">
+                    You shouldn't view code this way.
+                    </br>
+                    This notice is not to <strong>prevent</strong>, but rather <strong>advice</strong> you.
+                    </br></br>
+                    You can view codes for all my projects through
+                    <a class="viewCodeRight_link" href="${myPortfolio}" target="_blank" title="View all my projects">my portfolio</a>
+                    </br></br>
+                    Thanks
+                </p>
+                <div class="viewCodeRight_btn">Close</div>
+            </div>
+        </div>
+
         <div class="give_space" id="top"></div>
                 
                 
@@ -46,7 +64,7 @@ const struct =
                                     <h1 class="section_title_textLarge">
                                         <span class="largeText1">Season N/A</span> - <span class="largeText2">Episode N/A</span>
                                     </h1>
-                                    <a href="https://acbennny.netlify.app" target="_blank" title="" class="section_title_textSmall">by acbennny</a>
+                                    <a href="${myPortfolio}" target="_blank" title="View all my projects" class="section_title_textSmall">by acbennny</a>
                                 </div>
                             </div>
                             <div class="left_section_bdr synopsis_bdr">
@@ -368,7 +386,16 @@ function initApp()
     function viewCodeProperly(e)
     {
         e.preventDefault();
-        alert("You cannot view code this way.\nThis alert is not to 'prevent' you but 'advice' you.\n\nYou can view codes for all my projects through \nmy site ==> https://acbennny.netlify.app \nThanks");
+        const viewCodeRightBdr = document.querySelector(".viewCodeRight_bdr");
+        const viewCodeRightBtn = viewCodeRightBdr.querySelector(".viewCodeRight_btn");
+
+        viewCodeRightBtn.addEventListener("click" , () => 
+        {
+            viewCodeRightBdr.classList.remove("active");
+        });
+
+        if((viewCodeRightBdr.classList.contains("active"))) return;
+        viewCodeRightBdr.classList.add("active");
     }
 
     function devToolKey(e)
