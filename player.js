@@ -562,19 +562,19 @@ function initPlyr()
             // Auto Play
             function vidHasEnded()
             {
+                // If auto play is on, replay video
+                if(autoPlayEpCheckBox.checked == true)
+                {
+                    mainVideo.play();
+                    return;
+                }
+                
                 video_player.classList.add("show-controls");
                 clearTimeout(ctrltimer);
 
                 if(document.fullscreenElement) 
                 {
                     toggleFullScreenMode();
-                }
-        
-                // If auto play is on, replay video
-                if(autoPlayEpCheckBox.checked == true)
-                {
-                    if(autoPlayEpCheckBox.checked == false) return;
-                    mainVideo.play();
                 }
             }
 
