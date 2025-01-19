@@ -141,30 +141,6 @@ const struct =
                     <div class="side_column right_column">
                         <div class="showlist">
                             <div class="showlist_head">
-                                <h3 class="showlist_nextText">Previous Episode</h3>
-                            </div>
-                            <div class="next_epCardBdr">
-                                <a href="#" title="" class="next_epCardBox next_epLink">
-                                    <div class="next_epImgBox">
-                                        <img src="/samples/image.jpg" alt="" class="next_epImg">
-                                        <div class="next_epLengthBox">
-                                            <p class="next_epLength">N/Am</p>
-                                        </div>
-                                        <div class="next_epCardHover">
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="next_epCardHoverIcon">
-                                                <path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/>
-                                            </svg>
-                                        </div>
-                                    </div>
-                                    <div class="next_epDetBdr">
-                                        <div class="next_epDetBox">
-                                            <h4 class="next_epDetTitle">Show Episode [Prev]</h4>
-                                            <div class="next_epDetShow">Show Name</div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="showlist_head">
                                 <h3 class="showlist_nextText">Next Episode</h3>
                             </div>
                             <div class="next_epCardBdr">
@@ -183,6 +159,30 @@ const struct =
                                     <div class="next_epDetBdr">
                                         <div class="next_epDetBox">
                                             <h4 class="next_epDetTitle">Show Episode [Next]</h4>
+                                            <div class="next_epDetShow">Show Name</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="showlist_head">
+                                <h3 class="showlist_nextText">Previous Episode</h3>
+                            </div>
+                            <div class="next_epCardBdr">
+                                <a href="#" title="" class="next_epCardBox next_epLink">
+                                    <div class="next_epImgBox">
+                                        <img src="/samples/image.jpg" alt="" class="next_epImg">
+                                        <div class="next_epLengthBox">
+                                            <p class="next_epLength">N/Am</p>
+                                        </div>
+                                        <div class="next_epCardHover">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="next_epCardHoverIcon">
+                                                <path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="next_epDetBdr">
+                                        <div class="next_epDetBox">
+                                            <h4 class="next_epDetTitle">Show Episode [Prev]</h4>
                                             <div class="next_epDetShow">Show Name</div>
                                         </div>
                                     </div>
