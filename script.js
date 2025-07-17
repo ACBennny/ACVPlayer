@@ -36,11 +36,11 @@ const struct =
             <div class="vid_box">
                 <div class="container video_player show-controls">
                     <video preload="metadata" class="main-video">
-                        <source src="/samples/360p.mp4" size="360" type="video/mp4">
-                        <source src="/samples/360p.mp4" size="480" type="video/mp4">
-                        <source src="/samples/720p.mp4" size="640" type="video/mp4">
-                        <source src="/samples/720p.mp4" size="720" type="video/mp4">
-                        <source src="/samples/1080p.mp4" size="1080" type="video/mp4">
+                        <source src="/samples/3_360p.mp4" size="360" type="video/mp4">
+                        <source src="/samples/3_360p.mp4" size="480" type="video/mp4">
+                        <source src="/samples/3_720p.mp4" size="640" type="video/mp4">
+                        <source src="/samples/3_720p.mp4" size="720" type="video/mp4">
+                        <source src="/samples/3_1080p.mp4" size="1080" type="video/mp4">
                         <track label="English" kind="subtitles" src="/samples/subCC1.vtt" srclang="en">
                         <track label="Spanish" kind="subtitles" src="/samples/subCC2.vtt" srclang="es">
                         <track label="French" kind="subtitles" src="/samples/subCC3.vtt" srclang="fr">
