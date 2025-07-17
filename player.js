@@ -829,7 +829,7 @@ function initPlyr()
                 loader.style.display = "flex";
             });
 
-            mainVideo.addEventListener('canplay', () => 
+            mainVideo.addEventListener('canplaythrough', () => 
             {
                 loader.style.display = "none";
             });
