@@ -970,9 +970,6 @@ function initPlyr()
             mainVideo.addEventListener('ended', () => 
             {
                 vidHasEnded();
-
-                // window.location.search = "google.com";
-                // window.history.replaceState({}, '', 'google.com?key=m');
             });
 
             // Picture in picture
