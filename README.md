@@ -2,6 +2,8 @@
 
 ## Summary
  This repository contains the builds of a fully functional video player that works on both pc and mobile.
+ 
+ View the demo <a href="https://acvidplayer.netlify.app/">here</a>.
 
 ## Features
 1. Core functionalities like play/pause, fast forward/rewind, picture-in-picture, fullscreen
